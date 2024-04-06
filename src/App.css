@@ -1,0 +1,66 @@
+.main-container {
+}
+
+.inner-container,
+.inner-container-2,
+.inner-container-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container-3 {
+  flex-direction: column;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputbox {
+  background: lightgrey;
+  border: none;
+  outline: none;
+  margin: 10px;
+  height: 30px;
+  padding: 0 5px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+}
+button {
+  background: white;
+  color: black;
+  border: 1px solid black;
+  margin: 10px;
+  height: 30px;
+  border-radius: 6px;
+  min-width: 40px;
+  cursor: pointer;
+}
+.list-tab-left,
+.list-tab-right {
+  margin: 4%;
+  display: flex;
+  flex-direction: column;
+}
+.lab-name {
+  width: 100px;
+  padding-left: 5px;
+}
+.nam-val-wrap {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}
+.arr-val {
+  display: flex;
+  flex-direction: column;
+}
+.arr-val-b {
+  border-left: 1px solid black;
+  padding: 5px;
+}
+.head-main {
+  margin-left: 5px;
+}
